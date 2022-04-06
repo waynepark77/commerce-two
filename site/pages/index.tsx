@@ -41,7 +41,8 @@ export default function Home({
   return (
     <>
 
-    
+
+
       <Grid variant="filled">
         {products.slice(0, 3).map((product: any, i: number) => (
           <ProductCard
